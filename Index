@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Almaz Watch — кастомные часы Casio и Восток Амфибия | Создаём истории на запястье</title>
+  <meta name="description" content="Almaz Watch — кастомные часы на базе оригинальных Casio и «Восток Амфибия» с вашим дизайном: логотип, фото, имя, герб, слоган. Ручная сборка, доставка по миру.">
+  <meta name="keywords" content="кастомные часы, Casio, Восток Амфибия, часы с гравировкой, подарок часы, Almaz Watch">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⌚</text></svg>">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Almaz Watch — Создаём истории на запястье">
+  <meta property="og:description" content="Кастомные часы на базе оригинальных Casio и «Восток Амфибия» с вашим уникальным дизайном.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= ШАПКА ================= -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Almaz Watch — на главную">
+        <span class="logo-mark" aria-hidden="true"></span>
+        ALMAZ<span> WATCH</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="index.html" class="active">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="reviews.html">Отзывы</a>
+        <a href="about.html">О нас</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+
+      <div class="header-cta">
+        <a class="btn btn-primary" href="https://t.me/almazwatchbot" target="_blank" rel="noopener">📩 Заказать</a>
+        <button class="burger" aria-label="Открыть меню" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Мобильное меню -->
+  <nav class="mobile-menu" aria-label="Мобильная навигация">
+    <a href="index.html">Главная</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="reviews.html">Отзывы</a>
+    <a href="about.html">О нас</a>
+    <a href="contacts.html">Контакты</a>
+    <a class="btn btn-primary" href="https://t.me/almazwatchbot" target="_blank" rel="noopener">📩 Заказать в Telegram</a>
+  </nav>
+
+  <main>
+    <!-- ================= ГЕРОЙ ================= -->
+    <section class="hero">
+      <div class="hero-particles" aria-hidden="true"></div>
+      <div class="container">
+        <div>
+          <p class="hero-eyebrow">Создаём истории на запястье</p>
+          <h1>Твои уникальные часы<br> с <span class="accent-text">индивидуальным</span> дизайном</h1>
+          <p class="hero-sub">
+            Оригинальные Casio и «Восток Амфибия» с гравировкой логотипа, фото, имени, герба
+            или слогана. Ручная работа, премиальные материалы, доставка по всему миру.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://t.me/almazwatchbot" target="_blank" rel="noopener" aria-label="Заказать часы в Telegram">
+              📩 Заказать в Telegram
+            </a>
+            <a class="btn btn-outline" href="catalog.html" aria-label="Смотреть каталог часов">
+              ⌚ Смотреть каталог
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-num"><span data-count="1000" data-suffix="+">0</span></span>
+              <span class="stat-label">довольных клиентов</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num"><span data-count="7">0</span></span>
+              <span class="stat-label">лет на рынке</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num"><span data-count="24" data-suffix="/7">0</span></span>
+              <span class="stat-label">на связи</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="clock-wrap" aria-hidden="true">
+          <div class="clock">
+            <div class="clock-face"></div>
+            <div class="clock-logo">ALMAZ<br>WATCH</div>
+            <div class="hand hand-hour"></div>
+            <div class="hand hand-minute"></div>
+            <div class="hand hand-second"></div>
+            <div class="clock-center-dot"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ПРЕИМУЩЕСТВА ================= -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head centered">
+          <p class="eyebrow">Почему мы</p>
+          <h2>Качество, которому доверяют</h2>
+          <p class="section-desc">Каждые часы — это история, собранная вручную с вниманием к деталям.</p>
+        </div>
+
+        <div class="perks-grid">
+          <div class="perk-card reveal">
+            <span class="perk-icon" aria-hidden="true">🛠️</span>
+            <h3>Ручная сборка</h3>
+            <p>Каждый экземпляр собирается и проверяется вручную мастером — никакого конвейера.</p>
+          </div>
+          <div class="perk-card reveal">
+            <span class="perk-icon" aria-hidden="true">⌚</span>
+            <h3>Оригинальные Casio</h3>
+            <p>Работаем только с подлинными механизмами Casio и «Восток Амфибия», без подделок.</p>
+          </div>
+          <div class="perk-card reveal">
+            <span class="perk-icon" aria-hidden="true">🎨</span>
+            <h3>Любой дизайн</h3>
+            <p>Логотип, фото, имя, герб, слоган — воплотим любую идею на циферблате и корпусе.</p>
+          </div>
+          <div class="perk-card reveal">
+            <span class="perk-icon" aria-hidden="true">🌍</span>
+            <h3>Доставка по миру</h3>
+            <p>Аккуратно упаковываем и отправляем в любую точку — от Казани до другого континента.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ПОСЛЕДНИЕ РАБОТЫ ================= -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Портфолио</p>
+          <h2>Последние работы</h2>
+          <p class="section-desc">Свежие экземпляры, собранные нашей мастерской.</p>
+        </div>
+
+        <div class="products-grid" id="home-products-grid">
+          <div class="state-box"><div class="loader"></div><p>Загружаем последние работы…</p></div>
+        </div>
+
+        <div class="section-foot">
+          <a class="btn btn-outline" href="catalog.html">Смотреть все часы →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ОТЗЫВЫ ================= -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Отзывы</p>
+          <h2>Что говорят клиенты</h2>
+          <p class="section-desc">Больше 1000 историй, воплощённых на запястье.</p>
+        </div>
+
+        <div class="reviews-grid" id="home-reviews-grid">
+          <div class="state-box"><div class="loader"></div><p>Загружаем отзывы…</p></div>
+        </div>
+
+        <div class="section-foot">
+          <a class="btn btn-outline" href="reviews.html">Читать все отзывы →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2>Готовы создать свою историю?</h2>
+          <p>Напишите нам в Telegram — обсудим дизайн, механизм и сроки за 5 минут.</p>
+          <div class="cta-actions">
+            <a class="btn btn-primary" href="https://t.me/almazwatchbot" target="_blank" rel="noopener">📩 Написать в Telegram</a>
+            <a class="btn btn-outline" href="contacts.html">📍 Наши контакты</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= ПОДВАЛ ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="Almaz Watch — на главную">
+            <span class="logo-mark" aria-hidden="true"></span>
+            ALMAZ<span> WATCH</span>
+          </a>
+          <p>Кастомные часы на базе оригинальных Casio и «Восток Амфибия». Создаём истории на запястье.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Навигация</h4>
+          <ul>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="reviews.html">Отзывы</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Контакты</h4>
+          <ul>
+            <li><a href="tel:+79083420172">+7 908 342-01-72</a></li>
+            <li><a href="https://t.me/almaz_watch" target="_blank" rel="noopener">@almaz_watch</a></li>
+            <li><span>Казань, ул. Мусы Бигиева, 36</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Almaz Watch. Все права защищены.</span>
+        <div class="socials">
+          <a href="https://t.me/almaz_watch" target="_blank" rel="noopener" aria-label="Telegram-канал">📢</a>
+          <a href="https://t.me/almazwatchbot" target="_blank" rel="noopener" aria-label="Telegram-бот">🤖</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
