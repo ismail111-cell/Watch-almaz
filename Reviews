@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Отзывы клиентов | Almaz Watch</title>
+  <meta name="description" content="Реальные отзывы клиентов Almaz Watch о кастомных часах Casio и «Восток Амфибия».">
+  <meta name="keywords" content="отзывы Almaz Watch, отзывы кастомные часы, часы на заказ отзывы">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⌚</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Almaz Watch — на главную">
+        <span class="logo-mark" aria-hidden="true"></span>
+        ALMAZ<span> WATCH</span>
+      </a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="reviews.html" class="active">Отзывы</a>
+        <a href="about.html">О нас</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <div class="header-cta">
+        <a class="btn btn-primary" href="https://t.me/almazwatchbot" target="_blank" rel="noopener">📩 Заказать</a>
+        <button class="burger" aria-label="Открыть меню" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="mobile-menu" aria-label="Мобильная навигация">
+    <a href="index.html">Главная</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="reviews.html">Отзывы</a>
+    <a href="about.html">О нас</a>
+    <a href="contacts.html">Контакты</a>
+    <a class="btn btn-primary" href="https://t.me/almazwatchbot" target="_blank" rel="noopener">📩 Заказать в Telegram</a>
+  </nav>
+
+  <main>
+    <section class="section" style="padding-top:calc(var(--header-height) + 60px);">
+      <div class="container">
+        <div class="section-head centered">
+          <p class="eyebrow">Отзывы</p>
+          <h2>Истории наших клиентов</h2>
+          <p class="section-desc">Более 1000 человек уже носят частичку Almaz Watch на запястье.</p>
+        </div>
+
+        <div class="reviews-grid" id="all-reviews-grid">
+          <div class="state-box"><div class="loader"></div><p>Загружаем отзывы клиентов…</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2>Уже заказывали у нас?</h2>
+          <p>Поделитесь впечатлениями в нашем Telegram-канале — это помогает другим сделать выбор.</p>
+          <div class="cta-actions">
+            <a class="btn btn-primary" href="https://t.me/almaz_watch" target="_blank" rel="noopener">📢 Оставить отзыв</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="Almaz Watch — на главную">
+            <span class="logo-mark" aria-hidden="true"></span>
+            ALMAZ<span> WATCH</span>
+          </a>
+          <p>Кастомные часы на базе оригинальных Casio и «Восток Амфибия». Создаём истории на запястье.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Навигация</h4>
+          <ul>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="reviews.html">Отзывы</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Контакты</h4>
+          <ul>
+            <li><a href="tel:+79083420172">+7 908 342-01-72</a></li>
+            <li><a href="https://t.me/almaz_watch" target="_blank" rel="noopener">@almaz_watch</a></li>
+            <li><span>Казань, ул. Мусы Бигиева, 36</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Almaz Watch. Все права защищены.</span>
+        <div class="socials">
+          <a href="https://t.me/almaz_watch" target="_blank" rel="noopener" aria-label="Telegram-канал">📢</a>
+          <a href="https://t.me/almazwatchbot" target="_blank" rel="noopener" aria-label="Telegram-бот">🤖</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
