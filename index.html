@@ -15,6 +15,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a0a14">
 </head>
 <body>
 
@@ -35,6 +37,7 @@
       </nav>
 
       <div class="header-cta">
+        <button class="theme-toggle" aria-label="Переключить тему">☀️</button>
         <a class="btn btn-primary" href="https://t.me/almazwatchbot" target="_blank" rel="noopener">📩 Заказать</a>
         <button class="burger" aria-label="Открыть меню" aria-expanded="false">
           <span></span><span></span><span></span>
@@ -52,6 +55,14 @@
     <a href="contacts.html">Контакты</a>
     <a class="btn btn-primary" href="https://t.me/almazwatchbot" target="_blank" rel="noopener">📩 Заказать в Telegram</a>
   </nav>
+
+  <!-- Баннер "недавно просмотренные" (появляется, если есть история просмотров) -->
+  <div class="recent-banner">
+    <div class="container" style="padding-top:calc(var(--header-height) + 24px);">
+      <p class="eyebrow">Вы недавно смотрели</p>
+      <div class="recent-strip"></div>
+    </div>
+  </div>
 
   <main>
     <!-- ================= ГЕРОЙ ================= -->
@@ -136,6 +147,20 @@
       </div>
     </section>
 
+    <!-- ================= СЛУЧАЙНЫЙ КАСТОМ ================= -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Наугад</p>
+          <h2>Случайный кастом</h2>
+          <p class="section-desc">Не знаете, с чего начать? Вот один из наших вариантов — случайно.</p>
+        </div>
+        <div class="random-widget reveal" id="random-widget">
+          <div class="state-box"><div class="loader"></div><p>Подбираем вариант…</p></div>
+        </div>
+      </div>
+    </section>
+
     <!-- ================= ПОСЛЕДНИЕ РАБОТЫ ================= -->
     <section class="section" style="padding-top:0;">
       <div class="container">
@@ -171,6 +196,32 @@
         <div class="section-foot">
           <a class="btn btn-outline" href="reviews.html">Читать все отзывы →</a>
         </div>
+      </div>
+    </section>
+
+    <!-- ================= ЛЕНТА ПОСЛЕДНИХ ПОСТОВ (скрывается сама, если таблица posts пуста) ================= -->
+    <section class="section" style="padding-top:0;" id="posts-section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Мы в Telegram</p>
+          <h2>Последние публикации</h2>
+          <p class="section-desc">Свежие кадры мастерской и готовых работ из нашего канала.</p>
+        </div>
+        <div class="posts-grid" id="posts-grid"></div>
+        <div class="section-foot">
+          <a class="btn btn-outline" href="https://t.me/almaz_watch" target="_blank" rel="noopener">📢 Открыть канал</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= КВИЗ ================= -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="section-head centered">
+          <p class="eyebrow">Не уверены в выборе?</p>
+          <h2>Подберите свои часы за 3 вопроса</h2>
+        </div>
+        <div class="quiz-box reveal" id="quiz-box"></div>
       </div>
     </section>
 
@@ -229,6 +280,8 @@
     </div>
   </footer>
 
+  <button class="back-to-top" aria-label="Наверх">↑</button>
   <script type="module" src="app.js"></script>
 </body>
-</html>
+                  </html>
+                  
